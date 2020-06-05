@@ -12,6 +12,6 @@ Un saludo!
 
 Hello everyone!
 
-This is the readme of my GitHub web page. This is an Office IT. Don't expect finding useful files (such as APIs) in this repo.
+This is the readme of my GitHub web page. This is an Office IT project. Don't expect finding useful files (such as APIs) in this repo.
 
 Cheers!
