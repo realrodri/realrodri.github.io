@@ -9,20 +9,6 @@
 <h1>Formulario</h1>
 <form id="formulario-j7">
 
-<script>
-$('#create').submit(function() { // catch the form's submit event
-    $.ajax({ // create an AJAX call...
-        data: $(this).serialize(), // get the form data
-        type: $(this).attr('method'), // GET or POST
-        url: $(this).attr('action'), // the file to call
-        success: function(response) { // on success..
-            $('#created').html(response); // update the DIV
-        }
-    });
-    return false; // cancel original event to prevent form submitting
-});
-</script>
-  
   <div>
     <label>Nombre:</label>
     <input type="text" name="person_name" placeholder="Introduzca su nombre"/>
@@ -60,6 +46,17 @@ $('#submit-form').on('click', function(e) {
     // do something
   );
 })
+
 </script>
+
+<script>
+var form = document.forms.submit-form;
+
+form.onsubmit = function(){
+    alert("Los comentarios han sido enviados. Muchas gracias. Ya puedes cerrar esta página");
+    return true;
+}
+</script>
+
 </body>
 </html>
