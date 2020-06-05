@@ -35,21 +35,5 @@ h1 {text-align: left;}
   
 
 </form>
-<script type="text/javascript" language="javascript">
-var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/s/AKfycbyhUJe0HgIsDqZdZM98TCnE5tfjFeK5qFLDF-_DXAI5JJul4ZfL/exec'
-
-$('#submit-form').on('click', function(e) {
-  e.preventDefault();
-  var jqxhr = $.ajax({
-    url: url,
-    method: "GET",
-    dataType: "json",
-    data: $form.serializeObject()
-  }).success(
-   $('#success_id').html("El formulario se ha enviado con éxito. Ya puedes cerrar esta ventana");
-  );
-})
-</script>
 </body>
 </html>
