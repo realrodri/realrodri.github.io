@@ -1,0 +1,31 @@
+html {
+background-color: black;
+}
+
+#image_table {
+  width: 100%
+}
+
+#content_table_th_a{
+  width: 50%;
+  align: center;
+  background-color: #DCB64C
+}
+
+#content_table_th_b{
+  width: 50%;
+  align: center;
+  background-color: #FFFFFF
+}
+
+* {
+  box-sizing: border-box;
+}
+
+tr {
+  padding: 30px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}

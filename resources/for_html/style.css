@@ -1,0 +1,43 @@
+html {
+  background-color: #4F42B5
+}
+
+#spacing {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#table_content {
+  width: 100%
+}
+
+#image_table{
+  width: 100%
+}
+
+#content_table_th{
+  width: 50%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+tr {
+  padding: 30px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#back_button {
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 15px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
