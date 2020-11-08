@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
   background-color: black;
 }
@@ -11,3 +12,18 @@ html {
   font-family: applefont;
   text-align: center;
 }
+=======
+html {
+  background-color: black;
+}
+@font-face {
+  font-family: applefont;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+#appleheader {
+  color: white;
+  font-family: applefont;
+  text-align: center;
+}
+>>>>>>> 98e1ce944b58e08ef7c7cd5fb67b4d3bd868bf9d
