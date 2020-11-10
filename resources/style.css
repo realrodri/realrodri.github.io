@@ -1,0 +1,13 @@
+html {
+  background-color: black;
+}
+@font-face {
+  font-family: applefont;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+#appleheader {
+  color: white;
+  font-family: applefont;
+  text-align: center;
+}

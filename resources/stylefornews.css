@@ -1,0 +1,82 @@
+html {
+  background-color: black;
+}
+
+@font-face {
+  font-family: applefont;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+.nav a {
+  text-align:center;
+  display:inline-block;
+  padding:10px;
+  text-decoration:none;
+  color:inherit;
+  font-size:14px;
+  font-family: applefont;
+}
+
+.nav li {
+  text-align:center;
+  display:inline-block;
+  width:10%;
+  padding:5px 10px;
+  background-color:#000;
+  border:1px solid #000;
+  color:#fff;
+  padding-left: 120px;
+  font-family: applefont;
+
+}
+.nav li:hover {
+  text-align:center;
+  background-color:#fff;
+  color:#000;
+  padding-right: 100px;
+  font-family: applefont;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#welcometitle {
+  font-family: applefont;
+  color: white;
+  text-align: center;
+}
+
+#welcometitle2 {
+  font-family: applefont;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+
+#news {
+  border-radius: 25px;
+}
+
+.button {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 15px 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: applefont;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   font-family: applefont;
+}
